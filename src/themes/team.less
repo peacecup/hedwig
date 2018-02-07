@@ -1,0 +1,59 @@
+.choose-teams {
+  border-left: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
+  color: #ffffff;
+  cursor: pointer;
+  width: 140px;
+  text-align: left;
+  position: relative;
+  &:hover {
+    background: #80848f;
+  }
+  .ivu-tabs-bar {
+    margin-bottom: -1px;
+  }
+  .title {
+    font-size: 1.7em;
+    padding-left: 10px;
+    overflow: hidden;
+  }
+  .body {
+    line-height: 25px;
+    z-index: 5;
+    width: 220px;
+    min-height: 120px;
+    background: #ffffff;
+    overflow: auto;
+    margin: 0px 0;
+    padding: 5px 0;
+    background-color: #fff;
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: 0 1px 6px rgba(0,0,0,.2);
+    position: absolute;
+    top: 60px;
+    right: 0px;
+    .team-item {
+      height: 30px;
+      line-height: 30px;
+      text-align: left;
+      padding-left: 20px;
+      &:hover {
+        background: #cccccc;
+        color: #ffffff;
+      }
+    }
+    .team-item-selected {
+      background: #9ba7b5;
+      color: #ffffff;
+    }
+  }
+}
+
+.role_visible {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 450px;
+}

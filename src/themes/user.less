@@ -1,0 +1,57 @@
+.user-detail {
+  .title {
+    display: flex;
+    @size: 65px;
+    .portrait {
+      width: @size;
+      height: @size;
+      background: #2b85e4;
+    }
+    .name {
+      line-height: @size;
+      margin-left: 20px;
+    }
+  }
+  .select-objects {
+    li {
+      padding: 0px 5px;
+      height: 25px;
+      line-height: 25px;
+      cursor: pointer;
+      &:hover {
+        background: #e9eaec;
+      }
+      label {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.user-information {
+  .fields {
+    .ivu-row-flex:hover {
+      background: #f8f8f9;
+    }
+  }
+}
+
+.ivu-table-body {
+  overflow: hidden;
+}
+
+.oncall {
+  .title {
+    background: #f8f8f9;
+    height: 25px;
+    line-height: 25px;
+    padding: 2px;
+  }
+  .timeline {
+    width: 20px;
+    border-radius: 20px;
+    position:absolute;
+    left: 20px;
+    min-height:50px;
+  }
+}
